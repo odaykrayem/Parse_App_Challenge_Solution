@@ -12,8 +12,8 @@ Our app uses the Parse toolkit (a database backend solution comparable to Fireba
 Please implement a simple two-page app that uses Parse as its backend. This app's purpose is to provide a simple version of the requests that the real app we're working on contains.  First, let me describe the data model of the request. Each request has a: 
 - Title (database field is called `title`, mandatory, string)
 - Description (database field is called `description`, mandatory, string)
-- Creator (database field is called `creator`, string)
-- Creation date (automatically added by the Parse SDK, field is called `createdAt`, access it via `parseObject.getCreatedAt()`)
+- Creator (database field is called `creator`, mandatory, string)
+- Creation date (automatically added by the Parse SDK, field is called `createdAt`, access it via `ParseObject.getCreatedAt()`)
 
 You do not need to create/provide a Parse database, this part is already done.
 
@@ -23,6 +23,6 @@ The second activity (that gets shown when the user taps on the "+"-button) is a 
 
 To reduce the work you need to do, please use the app that this repository contains as a starting point. In Android Studio, you can directly create a project from this repository. (New Project > Project from Version Control > Enter `https://gitlab.kiwio.eu/root/app_challenge.git`)
 
-Some basic things are already implemented, thus saving some time. :) If you're not yet familiar with the way Java apps on Android work, the code in the repository gives you hints what elements you can use to implement the described functionality.
+Some basic things are already implemented, thus saving you some time. :) If you're not yet familiar with the way Java apps on Android work, the code in the repository gives you hints what elements you can use to implement the described functionality.
 
 In case you have any questions or issues, feel free to send me a message at `ericschneider@kiwio.eu`. You can hand in the final app either as a zip archive or create a repository at Github.
