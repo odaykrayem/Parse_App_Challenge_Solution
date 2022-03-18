@@ -11,4 +11,12 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="header">Active Requests</string>
+    <string name="title">Title</string>
+    <string name="creator">Creator</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="add_request">Add Request</string>
+    <string name="post_request">Post request</string>
+    <string name="connection_error">Please check your internet connection and try again</string>
+    <string name="save_soon">Your request will be saved when you get online again</string>
 </resources>
